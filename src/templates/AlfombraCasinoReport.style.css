@@ -1,0 +1,106 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+table thead tbody {
+    display: block!important;
+}
+tr {
+    display: block!important;float: left!important; width: 50%!important;
+    padding-top: 2rem;padding-bottom: 2rem;
+}
+td {
+    display: block!important;padding-top: 5rem;padding-bottom: 15rem;
+    padding-left: 3rem;padding-right: 3rem;
+}
+body { 
+    font-family: DejaVuSansCondensed, sans-serif; font-size: 12pt; align-content: center; 
+    align-items: center;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.picture-element{ max-width: 70%;  max-height: 85%; } 
+p { 	text-align: justify; margin-bottom: 4pt;  margin-top:0pt; }
+h3 {	
+    font-weight: normal; font-size: 26pt; color: #000000; 
+    font-family: DejaVuSansCondensed, sans-serif; margin-top: 0pt; margin-bottom: 6pt; 
+    border-top: 0; border-bottom: 0; 
+    text-align: ; page-break-after:avoid; }
+h4 {	
+    font-weight: ; font-size: 17pt; color: #9f2b1e; 
+    font-family: DejaVuSansCondensed, sans-serif; margin-top: 10pt; margin-bottom: 7pt; 
+    font-variant: small-caps;
+    text-align: ;  margin-collapse:collapse; page-break-after:avoid; }
+h5 {	
+    font-weight: bold; font-style:italic; ; font-size: 20pt; color: #000044; 
+    font-family: DejaVuSansCondensed, sans-serif; margin-top: 8pt; margin-bottom: 4pt; 
+    text-align: center;  page-break-after:avoid; }
+div.title-container {
+    content: "";
+    display: table;
+    clear: both;
+    /* background-color: #d05bf3; */
+    margin-bottom: 5rem ;
+}
+
+div.logo-img-container {
+    float: left;
+    width: 50%;
+    margin-top: -3rem;
+}
+
+div.title-txt-container {
+    float: left;
+    width: 50%;
+    margin-top: 3rem;
+}
+
+div.basedoc-container {
+    margin-left: auto; margin-right: 0;
+}
+
+div.information-container {
+    margin-top: 7rem;
+    padding: auto;
+    width: 100%;
+    align-items: center;
+    position: fixed; 
+	overflow: auto; 
+    font-family: DejaVuSansCondensed;
+    font-size: 24px;
+    outline: dashed 1px black;
+    /* background-color: #d05bf3; */
+    margin-bottom: 5rem ;
+}
+
+div.subsidiary-txt-container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div.subsidiary-txt-container {
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* div.report-img-container {
+    margin-left: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+} */
+/* Check required styles */
